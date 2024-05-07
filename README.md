@@ -18,3 +18,7 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+Answer:
+
+I believe thanks to the help I recieved(from Ishita Patel) in the coding portion the analysis is relatively simple. Because there is only a single loop inside the funtion doing calculations until we reach n, the worst case runtime would be $\Theta(n)$.
