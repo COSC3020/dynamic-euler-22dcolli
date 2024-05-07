@@ -4,8 +4,8 @@ function e(n) {
     let factorial = 1;
     //she pointed out they increment the same, so we don't need multiple loops
     for(let i = 1; i <= n; i++){
-        factorial *= i;
-        eul += (1.0 / factorial)
+        factorial = (factorial * i);
+        eul = (eul+(1.0 / factorial));
     }
     return eul;
 }
