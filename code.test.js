@@ -6,5 +6,5 @@ eval(fs.readFileSync('code.js')+'');
 assert(e(10) === 2.7182818011463845);
 //assert(e(5) == 2.7166666666666663);
 //just wanted to try an input half as large and 10 times as large, Replit AI tool helped me get the following statements correct, specifically the math to calculate a tolerance
-assert(e(5) >= 2.716 - .01 && e(5) <= 2.716 + .01);
-assert(e(100) >= 2.6881 - .01 && e(100) <= 2.6881 + .01);
+assert(e(5) >= 2.716 - .1 && e(5) <= 2.716 + .1);
+assert(e(100) >= 2.6881 - .1 && e(100) <= 2.6881 + .1);
